@@ -1,1 +1,30 @@
 # Bill Caldwell Site
+
+## Deployed Site
+
+Please visit the site at
+
+## Contents of this Read Me :
+
+- About This App
+- Setup
+- Mock ups and Wire frames
+- Technologies Used
+- My Approach
+
+## About This App
+
+This app is built for the purpose of showcasing an artists work on the internet.
+
+## Set Up
+
+- download or clone the repository
+- run npm install
+
+## Mock ups and Wire frames
+
+## Technologies Used
+
+So far I have used React
+
+## My Approach
