@@ -10,7 +10,7 @@ Please visit the site at
 - Setup
 - Mock ups and Wire frames
 - Technologies Used
-- [My Approach](##My-Approach)
+- [My Approach](#My-Approach)
 
 ## About This App
 
