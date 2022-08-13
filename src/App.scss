@@ -1,0 +1,45 @@
+$textColor: blue;
+$extraSmallSize:0.25rem;
+$smallSize: 0.50rem;
+$mediumSize:1rem;
+$largeSize:1.5rem;
+$extraLargeSize:2rem;
+
+html {
+    font-size: 62.5%;
+}
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    background-color: bisque;
+}
+
+
+.title-container {
+    height: 711px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+h1 {
+            color: $textColor;
+            margin: 0 auto;
+            background-color: pink;
+            display: inline;
+            font-size: 9em;
+            padding: $extraLargeSize;
+            position: relative;
+    }
+    h1::after {
+        content: 'hello';
+        position:absolute;
+        bottom:100;
+        left:0;
+        font-size: 1em;
+        color:transparent;
+        :hover{
+            color:black;
+        }
+    }
+}
