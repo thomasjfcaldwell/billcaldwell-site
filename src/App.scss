@@ -33,7 +33,7 @@ h1 {
     }
     h1::after {
         content: 'hello';
-        position:absolute;
+        position:absolute; 
         bottom:100;
         left:0;
         font-size: 1em;
