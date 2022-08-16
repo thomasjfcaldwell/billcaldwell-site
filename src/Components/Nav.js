@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Nav(props) {
+function Nav() {
 	return (
 		<div>
 			<h1>Nav bar</h1>
