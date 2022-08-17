@@ -11,10 +11,14 @@ function Nav() {
 			<div className='nav_links-container'>
 				<ul className='nav_links-list'>
 					<li className='nav_links-item'>
-						<a href='https://www.google.com/'>sssss</a>
+						<a className='nav_link' href='https://www.google.com/'>
+							Work Example
+						</a>
 					</li>
 					<li className='nav_links-item'>
-						<a href='https://www.google.com/'>sssss</a>
+						<a className='nav_link' href='https://www.google.com/'>
+							Contact
+						</a>
 					</li>
 				</ul>
 			</div>

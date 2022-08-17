@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../Styles/AboutBillStyles.scss';
-import Carousel from '../Components/Carousel';
+import CarouselSlider from '../Components/CarouselSlider';
 
 import billOnBike from '../Images/Billlandscape.png';
 
@@ -37,9 +37,7 @@ function AboutBill() {
 						bitof balance
 					</p>
 				</div>
-				<div>
-					<Carousel />
-				</div>
+				<div>{/* <CarouselSlider /> */}</div>
 			</div>
 		</>
 	);

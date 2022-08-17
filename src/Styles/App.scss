@@ -5,6 +5,8 @@ $mediumSize:1rem;
 $largeSize:1.5rem;
 $extraLargeSize:2rem;
 
+@import "~bootstrap/scss/bootstrap";
+
 html {
     font-size: 62.5%;
 }
@@ -14,6 +16,10 @@ body {
     box-sizing: border-box;
     font-size: 1.6rem;
     background-color:black;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 1.5rem;
 }
 
 .header {
