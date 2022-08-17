@@ -1,0 +1,55 @@
+.hero_container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    background-color: plum;
+}
+
+.hero_list{
+    margin:0;
+    padding:2rem 0;
+    list-style: none;
+    width:90%;
+    display:flex;
+    justify-content: space-between;
+    .hero_list-item {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin:2rem 0;
+    }
+}
+
+.hero_images-container {
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    .hero_image {
+        width:45%;
+    }
+}
+
+.hero_link-container {
+    width:100%;
+    margin:2rem 0;
+    display:flex;
+    justify-content: center;
+}
+.hero_link {
+   text-decoration: none; 
+}
+
+.hero_link-text {
+    font-size: 1.9rem;
+    position: relative;
+}
+
+.hero_link-text::after {
+    content: "v";
+    color: red;
+    position:absolute;
+    top:20px;
+    right:75px;
+    
+}

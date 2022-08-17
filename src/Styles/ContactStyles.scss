@@ -1,0 +1,15 @@
+.contact_container {
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    background-color: lightslategray;
+    .contact_content-container {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:50%;
+    }
+    .contact_content-container > h5 {
+            font-size: 1.5rem;
+        }
+}

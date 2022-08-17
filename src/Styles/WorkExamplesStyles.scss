@@ -1,0 +1,28 @@
+.work-examples_container {
+    background-color: deeppink;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:1rem 0.5rem;
+    padding:1rem;
+}
+.work-examples_card {
+    grid-column: span 2;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    .work-examples_text {
+        font-size:0.5rem;
+    }
+    .work-examples_description {
+        font-size:0.6rem;
+    }
+    .work-examples_image {
+        width:100%;
+    }
+}
+.work-examples_card:nth-of-type(5){
+    grid-column: span 4;
+    background-color: blanchedalmond;
+}

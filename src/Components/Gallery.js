@@ -1,7 +1,8 @@
 import React from 'react';
+import '../Styles/GalleryStyles.scss';
 
 function Gallery() {
-	return <div>Gallery</div>;
+	return <div className='gallery_container'></div>;
 }
 
 export default Gallery;

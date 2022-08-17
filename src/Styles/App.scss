@@ -1,0 +1,26 @@
+$textColor: blue;
+$extraSmallSize:0.25rem;
+$smallSize: 0.50rem;
+$mediumSize:1rem;
+$largeSize:1.5rem;
+$extraLargeSize:2rem;
+
+html {
+    font-size: 62.5%;
+}
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    background-color:black;
+}
+
+.header {
+    background-color: aqua;
+}
+.main {
+    background-color: red;
+    max-width: 1440px;
+    margin:0 auto;
+}

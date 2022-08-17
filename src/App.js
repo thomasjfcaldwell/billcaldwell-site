@@ -1,8 +1,7 @@
-import './App.scss';
+import './Styles/App.scss';
 import Nav from './Components/Nav';
 import Hero from './Components/Hero';
 import AboutBill from './Components/AboutBill';
-import Carousel from './Components/Carousel';
 import Gallery from './Components/Gallery';
 import WorkExamples from './Components/WorkExamples';
 import Contact from './Components/Contact';
@@ -10,13 +9,18 @@ import Contact from './Components/Contact';
 function App() {
 	return (
 		<div className='App'>
-			<Nav />
-			<Hero />
-			<AboutBill />
-			<Carousel />
-			<Gallery />
-			<WorkExamples />
-			<Contact />
+			<header className='header'>
+				<Nav />
+			</header>
+			<main className='main'>
+				<Hero />
+				<AboutBill />
+				<Gallery />
+				<WorkExamples />
+			</main>
+			<footer className='footer'>
+				<Contact />
+			</footer>
 		</div>
 	);
 }

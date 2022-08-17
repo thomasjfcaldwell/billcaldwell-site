@@ -1,0 +1,33 @@
+.nav_container {
+    width:100%;
+    background-color: antiquewhite;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    .nav_image-container {
+        background-color: goldenrod;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav_image {
+        width: 150px;
+    }
+    .nav_links-container {
+       background-color: cyan;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .nav_links-list {
+            list-style: none;
+            margin:0;
+            padding:0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav_links-item {
+            padding:0 0.5rem;
+        }
+    }
+
+}
