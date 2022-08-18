@@ -1,7 +1,45 @@
-.gallery_container{
-    background-color: purple;
+@import 'App';
+
+.gallery_container {
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 0.5rem;
+}
+
+
+.gallery_row-1{
+    width:100%;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    grid-gap:0.5rem;
+}
+.gallery_row-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 0.5rem;
+}
+.gallery_row-3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 0 1rem;
+
+}
+.gallery_row-4 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 0.1rem;
+}
+
+.gallery_image-container {
+    width:100%;
 }
 
 .gallery_image {
-    height:100px;
+    width: 95%;
 }

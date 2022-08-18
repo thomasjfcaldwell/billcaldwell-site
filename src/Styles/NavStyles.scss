@@ -1,10 +1,10 @@
 .nav_container {
     width:100%;
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
     display:grid;
     grid-template-columns: 1fr 1fr;
 .nav_image-container {
-        background-color: goldenrod;
+        // background-color: goldenrod;
         display:flex;
         align-items: center;
         justify-content: center;
@@ -22,7 +22,7 @@
         }
 }
 .nav_links-container {
-       background-color: cyan;
+    //    background-color: cyan;
         display: flex;
         align-items: center;
         justify-content: center;

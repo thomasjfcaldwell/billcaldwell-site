@@ -1,4 +1,8 @@
-$textColor: blue;
+$textColor:#E8EDE7;
+$ColorOne: #81BECE;
+$ColorTwo: #378BA4;
+$ColorThree:#036280;
+$ColorFour:#012E4A;
 $extraSmallSize:0.25rem;
 $smallSize: 0.50rem;
 $mediumSize:1rem;
@@ -15,18 +19,22 @@ body {
     padding:0;
     box-sizing: border-box;
     font-size: 1.6rem;
-    background-color:black;
     font-family: 'Montserrat', sans-serif;
 }
-h1 {
-    font-size: 1.5rem;
+
+a,p,h1,h2,h3,h4,h5 {
+    color:$textColor;
 }
 
 .header {
-    background-color: aqua;
+    background-color: $ColorOne;
+    // min-height: 100vh;
 }
 .main {
-    background-color: red;
+    background-color: $ColorTwo;;
     max-width: 1440px;
     margin:0 auto;
+}
+.footer {
+    background-color: $ColorThree;
 }

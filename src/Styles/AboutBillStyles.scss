@@ -2,7 +2,6 @@
     width:100%;
     display:flex;
     flex-direction: column;
-    margin:2rem auto;
 }
 .about-bill_title-container {
     padding-inline:2rem;
@@ -24,12 +23,13 @@
 
  .about-bill_text-container {
     width:95%;
-    background-color: bisque;
     margin: 2rem auto;
  }
 
  .about-bill_text {
-    font-size:1.2rem;
-    padding:1.5rem;
-    letter-spacing: 0.05rem;
+    font-size:1.15rem;
+    padding:0 1.5rem;
+    letter-spacing: 0.08rem;
+    line-height: 1.55;
+    text-align: center;
  }
