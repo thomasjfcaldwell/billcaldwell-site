@@ -1,5 +1,6 @@
 .contact_container {
     width:100%;
+    padding:2rem;
     display:flex;
     justify-content: space-evenly;
     .contact_content-container {
@@ -7,8 +8,22 @@
         flex-direction: column;
         align-items: center;
         width:50%;
+        padding:2rem;
     }
     .contact_content-container > h5 {
-            font-size: 1.5rem;
+            font-size: 0.9rem;
         }
+    .contact_content-container > a {
+        font-size: 0.7rem;
+    }    
+}
+
+.contact_image-container {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_image {
+    width:80%;
 }

@@ -14,26 +14,27 @@
     width:100%;
     display: grid;
     grid-template-columns:1fr 2fr;
-    grid-gap:0.5rem;
+    grid-gap:1rem;
+  
 }
 .gallery_row-2 {
     width: 100%;
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-gap: 0.5rem;
+    grid-gap: 1rem;
+   
 }
 .gallery_row-3 {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-gap: 0 1rem;
-
+    grid-gap: 1rem;
 }
 .gallery_row-4 {
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-gap: 0.1rem;
+grid-gap: 1rem;
 }
 
 .gallery_image-container {
@@ -41,5 +42,7 @@
 }
 
 .gallery_image {
-    width: 95%;
+    width: 100%;
+    object-fit: cover;
+    height:100%;
 }

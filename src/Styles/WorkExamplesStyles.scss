@@ -18,10 +18,11 @@
         font-size:0.6rem;
     }
     .work-examples_image {
-        width:100%;
+        width:80%;
     }
 }
 .work-examples_card:nth-of-type(5){
     grid-column: span 4;
-    background-color: blanchedalmond;
+    width:50%;
+    margin:0 auto;
 }

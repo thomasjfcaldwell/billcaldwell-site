@@ -2,7 +2,8 @@ let workExamples = [
 	{
 		id: 1,
 		title: 'Newspaper',
-		description: '',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Volutpat blandit aliquam etiam erat.',
 		image:
 			'https://res.cloudinary.com/djjqsmlei/image/upload/v1653076638/churchStreamingForGallery_gw8lhj.png',
 		cartoon_date: '12/12/2012',
@@ -12,36 +13,40 @@ let workExamples = [
 	{
 		id: 2,
 		title: 'Magazine',
-		description: '',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Volutpat blandit aliquam etiam erat.',
 		image:
-			'https://res.cloudinary.com/djjqsmlei/image/upload/v1653076638/churchStreamingForGallery_gw8lhj.png',
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1653080582/industrial2020cartoon_ktzjhe.jpg',
 		cartoon_date: '12/12/2012',
 		news_story: 'http',
 	},
 	{
 		id: 3,
 		title: 'illustrations',
-		description: '',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Volutpat blandit aliquam etiam erat.',
 		image:
-			'https://res.cloudinary.com/djjqsmlei/image/upload/v1653076638/churchStreamingForGallery_gw8lhj.png',
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1653330556/santamonica_clgc4d.png',
 		cartoon_date: '12/12/2012',
 		news_story: 'http',
 	},
 	{
 		id: 4,
 		title: 'Sketches',
-		description: '',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Volutpat blandit aliquam etiam erat.',
 		image:
-			'https://res.cloudinary.com/djjqsmlei/image/upload/v1653076638/churchStreamingForGallery_gw8lhj.png',
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1653328921/dulzura_ftdltr.png',
 		cartoon_date: '12/12/2012',
 		news_story: 'http',
 	},
 	{
 		id: 5,
 		title: 'Strips',
-		description: '',
+		description:
+			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Volutpat blandit aliquam etiam erat.',
 		image:
-			'https://res.cloudinary.com/djjqsmlei/image/upload/v1653076638/churchStreamingForGallery_gw8lhj.png',
+			'https://res.cloudinary.com/djjqsmlei/image/upload/v1653077063/cloggerForGallery_ggdzun.png',
 		cartoon_date: '12/12/2012',
 		news_story: 'http',
 	},
