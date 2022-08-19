@@ -12,7 +12,7 @@ function Nav() {
 				<ul className='nav_links-list'>
 					<li className='nav_links-item'>
 						<a className='nav_link' href='https://www.google.com/'>
-							Work Example
+							Work Examples
 						</a>
 					</li>
 					<li className='nav_links-item'>

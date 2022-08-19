@@ -11,14 +11,14 @@
     margin:0;
     padding:2rem 0;
     list-style: none;
-    width:85%;
+    width:90%;
     display:flex;
     justify-content: space-between;
     @media (min-width: 768px) {
             width:70%;
         }
     @media (min-width: 1440px) {
-            width:60%;
+            width:45%;
         }
     .hero_list-item {
         text-transform: uppercase;
@@ -34,8 +34,8 @@
         font-size: 2rem;
         }
         @media (min-width: 1440px) {
-        font-size: 3rem;
-        margin:3rem 0;
+        font-size: 2.5rem;
+        margin:2rem 0;
         }
     }
 }
@@ -75,11 +75,15 @@
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     transition: all 0.3s ease-in-out;
+    background-color: $ColorFour;
+    padding:1rem;
+    border-radius: .5rem;
 }
+
 .hero_link-text:hover {
-    color: black;
+    color: $ColorTwo;
     cursor: pointer;
-    font-size: 1.7rem;
+    font-size: 1rem;
 }
 
 // .hero_link-text::after {

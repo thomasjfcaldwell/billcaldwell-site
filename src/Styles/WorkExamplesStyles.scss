@@ -1,8 +1,11 @@
+@import 'App';
+
 .work-examples_container {
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap:1rem 0.5rem;
     padding:1rem;
+
 }
 .work-examples_card {
     grid-column: span 2;
@@ -11,14 +14,26 @@
     justify-content: center;
     align-items: center;
     width:100%;
-    .work-examples_text {
-        font-size:0.5rem;
+    .work-examples_title {
+        font-size:1.2rem;
+        padding:0.5rem;
+        position: relative;
+    .work-examples_title:after {
+            position: absolute;
+            content: '';
+            height: 200px;
+            background-color:black;
+            bottom: -4px;
+    }
     }
     .work-examples_description {
-        font-size:0.6rem;
+        font-size:0.8rem;
+        width:90%;
+        margin-top:1rem;
     }
     .work-examples_image {
         width:80%;
+        margin-bottom: 1rem;
     }
 }
 .work-examples_card:nth-of-type(5){

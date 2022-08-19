@@ -8,6 +8,8 @@ $smallSize: 0.50rem;
 $mediumSize:1rem;
 $largeSize:1.5rem;
 $extraLargeSize:2rem;
+$mainFont: 'Montserrat',
+sans-serif;
 
 @import "~bootstrap/scss/bootstrap";
 
@@ -19,7 +21,7 @@ body {
     padding:0;
     box-sizing: border-box;
     font-size: 1.6rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $mainFont;
 }
 
 a,p,h1,h2,h3,h4,h5 {
@@ -28,7 +30,9 @@ a,p,h1,h2,h3,h4,h5 {
 
 .header {
     background-color: $ColorOne;
-    // min-height: 100vh;
+@media (min-width: 768px) {
+        min-height: 100vh;
+    }
 }
 .main {
     background-color: $ColorTwo;;

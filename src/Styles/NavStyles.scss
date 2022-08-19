@@ -1,3 +1,5 @@
+@import 'App';
+
 .nav_container {
     width:100%;
     // background-color: antiquewhite;
@@ -45,18 +47,22 @@
 
             .nav_link{
                 font-size:0.9rem;
+                letter-spacing: 0.05rem;
                 text-transform: uppercase;
                 text-decoration: none;
-                color:#727272;
+                color:$ColorThree;
+                padding: 1rem;
                 @media (min-width: 425px) {
                 font-size: 1.2rem;
                 }
                 @media (min-width: 1024px) {
-                font-size: 1.7rem;
+                font-size: 1.2rem;
                 }
-                 @media (min-width: 1440px) {
-                font-size: 1.9rem;
-                }
+            }
+            .nav_link:hover{
+                background-color: $ColorFour;
+                border-radius: 1rem;
+                color:$ColorOne;
             }
         }
     }
