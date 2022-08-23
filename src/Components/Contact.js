@@ -10,21 +10,21 @@ function Contact() {
 	return (
 		<div className='contact_container'>
 			<div className='contact_content-container'>
-				<h5 className='contact_email-title'>EMAIL</h5>
+				<h5 className='contact_email-title'>Email</h5>
 				<div className='contact_image-container'>
 					<img src={emailPhoto} className='contact_image' alt='Bill' />
 				</div>
 				<a href='mailto:thomasjfcaldwell@gmail.com'>
-					<p>bill@billcaldwell.com</p>
+					<p>Send a email</p>
 				</a>
 			</div>
 			<div className='contact_content-container'>
-				<h5 className='contact_linkedin-title'>LINKEDIN</h5>
+				<h5 className='contact_linkedin-title'>Linkedin</h5>
 				<div className='contact_image-container'>
 					<img src={linkdinPhoto} className='contact_image' alt='dog' />
 				</div>
 				<a href='www.linkedin.com'>
-					<p>Bill Caldwell</p>
+					<p>Reach Out</p>
 				</a>
 			</div>
 		</div>

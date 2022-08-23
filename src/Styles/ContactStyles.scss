@@ -3,18 +3,30 @@
     padding:2rem;
     display:flex;
     justify-content: space-evenly;
+    gap: 0.5rem;
     .contact_content-container {
         display:flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
         width:50%;
-        padding:2rem;
+        padding:1rem;
+        
     }
     .contact_content-container > h5 {
-            font-size: 0.9rem;
+            font-size: 1.2rem;
+            margin: 1rem 0;
+            @media (min-width: 768px) {
+                font-size:2rem
+            }
         }
     .contact_content-container > a {
-        font-size: 0.7rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        margin:1rem 0;
+        @media (min-width: 768px) {
+                font-size: 1.8rem
+            }
     }    
 }
 
@@ -26,4 +38,7 @@
 }
 .contact_image {
     width:80%;
+    @media (min-width: 1024px) {
+            width:50%;
+        }
 }

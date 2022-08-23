@@ -3,9 +3,12 @@
 .work-examples_container {
     display:grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap:1rem 0.5rem;
+    grid-gap:2rem 0.5rem;
     padding:1rem;
-
+    margin:5rem 0 auto;
+    @media (min-width: 1024px) {
+            grid-template-columns: repeat(5, 1fr);
+        }
 }
 .work-examples_card {
     grid-column: span 2;
@@ -14,30 +17,39 @@
     justify-content: center;
     align-items: center;
     width:100%;
+    background-color:$ColorOne;
+    padding:1rem;
+    border-radius: 0.5rem;
+    @media (min-width: 1024px) {
+            grid-column: span 1;
+        }
     .work-examples_title {
-        font-size:1.2rem;
-        padding:0.5rem;
+        font-size:1.9rem;
+        padding:0.2rem;
         position: relative;
-    .work-examples_title:after {
-            position: absolute;
-            content: '';
-            height: 200px;
-            background-color:black;
-            bottom: -4px;
-    }
     }
     .work-examples_description {
-        font-size:0.8rem;
-        width:90%;
-        margin-top:1rem;
+        font-size:0.9rem;
+        width:100%;
+        text-align: center;
+        color:$ColorFour;
     }
     .work-examples_image {
-        width:80%;
+        width:100%;
         margin-bottom: 1rem;
     }
 }
 .work-examples_card:nth-of-type(5){
     grid-column: span 4;
     width:50%;
-    margin:0 auto;
+    margin:0 auto 5rem auto;
+    @media (min-width: 1024px) {
+            grid-column: span 1;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0 auto;
+        }
 }

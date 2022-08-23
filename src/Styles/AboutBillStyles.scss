@@ -2,6 +2,11 @@
     width:100%;
     display:flex;
     flex-direction: column;
+    @media (min-width: 1024px) {
+           display:grid;
+           grid-template-columns: 1fr 1fr;
+           grid-template-rows: 50px 1fr;
+        }
 }
 .about-bill_title-container {
     padding-inline:2rem;
@@ -15,10 +20,21 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    @media (min-width: 1024px) {
+            grid-area:1/2/3/3;
+            padding-inline:0.5rem;
+        }
+
 }
 .about-bill_image {
     width:80%;
     border-radius: 1.5rem;
+    @media (min-width: 1024px) {
+            width:90%;
+        }
+    @media (min-width: 1440px) {
+                    width: 80%;
+                }
 }
 
  .about-bill_text-container {
@@ -32,4 +48,7 @@
     letter-spacing: 0.08rem;
     line-height: 1.55;
     text-align: center;
+    @media (min-width: 1024px) {
+            font-size: 1.5rem;
+        }
  }
